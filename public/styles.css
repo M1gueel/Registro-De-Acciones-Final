@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F07A; /* Color de fondo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #B7C9F2; /* Color de fondo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+    text-align: center;
+    color: #FFFF; /* Color del título */
+}
+
+form {
+    background-color: #9195F6; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="button"] {
+    width: calc(100% - 24px); /* Ancho del input */
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="button"],
+button {
+    width: calc(100% - 24px); /* Ancho del botón */
+    padding: 10px;
+    background-color: #FB88B4; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #FB88B4; /* Color del encabezado de la tabla */
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F9F07A; /* Color de fila par */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #B7C9F2; /* Color de fila impar */
+}
